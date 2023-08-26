@@ -1,3 +1,7 @@
 .featured-image {
   background-image: url("../../../assets/home/featured.jpg");
 }
+
+.feature-image-children {
+  background-color: rgba(0, 0, 0, 0.6);
+}
