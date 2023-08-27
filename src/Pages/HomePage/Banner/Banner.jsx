@@ -10,7 +10,7 @@ import img6 from "../../../assets/home/06.png";
 
 export default function Banner() {
   return (
-    <Carousel>
+    <Carousel autoPlay={true} interval={2500} infiniteLoop={true}>
       <div>
         <img src={img1} />
       </div>

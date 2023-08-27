@@ -4,9 +4,13 @@ import "./Featured.css";
 
 const Featured = () => {
   return (
-    <div className="bg-fixed featured-image">
-      <div className="pt-2 my-4 text-white feature-image-children ">
-        <SectionTitle heading={"Featured item"} subHeading={"check it out"} />
+    <div className="mt-10 bg-fixed featured-image">
+      <div className="pt-2 my-4 text-white feature-image-children">
+        <SectionTitle
+          heading={"Featured item"}
+          subHeading={"check it out"}
+          headingColor={"text-white"}
+        />
         <div className="items-center justify-center pt-12 pb-20 px-36 md:flex">
           <div className="flex-1 ">
             <img className="rounded" src={featuredImage} alt="" />
